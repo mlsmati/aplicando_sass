@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header .navBar {
+  background-color: olive;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px;
+}
+header .navBar .listaNav {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .navBar .listaNav .itemNav a {
+  color: salmon;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+
+main .banner {
+  width: 100%;
+}
+main .cont_fiambres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .cont_fiambres .fiambre {
+  width: 15rem;
+  height: 20rem;
+  padding: 1rem;
+  background-color: olive;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+main .cont_fiambres .fiambre .botones .b_comprar {
+  background-color: coral;
+}
+
+footer {
+  display: flex;
+  margin: 0 10%;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
